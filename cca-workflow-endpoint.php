@@ -331,7 +331,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     $jsonData = json_encode($requestBody);
 
                     // Your API Key
-                    $apiKey = 'pat-api-08350b70-0b2c-480c-9c29-52dc6c8205cb';
+                    $apiKey = '';
 
                     // 2. Initialize cURL
                     $ch = curl_init();
