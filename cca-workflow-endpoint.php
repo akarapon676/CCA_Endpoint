@@ -1,9 +1,5 @@
 <?php
 // Include your class and dependencies
-require_once($_SERVER["DOCUMENT_ROOT"] . '/inc/dbconnect.php');
-require_once($_SERVER["DOCUMENT_ROOT"] . '/inc/dbconnect_pdo.php');
-require_once($_SERVER['DOCUMENT_ROOT'] . '/admin/controllers/ApprovalWorkflow/cca/WorkflowController.php');
-require_once($_SERVER['DOCUMENT_ROOT'] . '/admin/controllers/NotifiCation/notifyController.php');
 // Server URL path
 $protocol = (!empty($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] !== "off") ? "https://" : "http://";
 $url_path = $protocol . $_SERVER["HTTP_HOST"];

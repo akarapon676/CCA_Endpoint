@@ -1,7 +1,7 @@
 <?php
 // Configuration
 header("Content-Type: application/json");
-
+    
 // $protocol = (!empty($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] !== "off") ? "https://" : "http://";
 $protocol = "https://";
 $url_path = $protocol . $_SERVER["HTTP_HOST"];
