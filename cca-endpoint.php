@@ -1,7 +1,6 @@
 <?php
 // Configuration
 header("Content-Type: application/json");
-require_once($_SERVER['DOCUMENT_ROOT'] . "/inc/INC_UTILITY.php");
 require_once(__DIR__ . '/../controllers/CustomerCreditAdjustmentController.php');
 require_once($_SERVER['DOCUMENT_ROOT'] . '/admin/controllers/NotifiCation/notifyController.php');
 
